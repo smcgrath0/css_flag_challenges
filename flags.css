@@ -10,12 +10,12 @@ body{
 #indonesia :first-child{
   background-color: red;
   height: 50%;
-  width: 150px;
+  width: 115px;
 }
 #indonesia :nth-child(2){
   background-color: white;
   height: 50%;
-  width: 150px;
+  width: 115px;
 }
 /* Colombia */
 #columbia :first-child{
@@ -68,8 +68,33 @@ body{
 }
 
 /* Benin */
+#benin {
+  font-size: 0%;
+}
+#benin > *{
+  display: inline-block;
+  height: 100%;
+  width: 33%;
+}
+#benin div:nth-of-type(1){
+  background-color:green;
+}
+#benin div:nth-of-type(2) div{
+  height: 50%;
+  width: 200%;
+}
+#benin div:nth-of-type(2) div:nth-of-type(1){
+  background-color:yellow;
+}
+#benin div:nth-of-type(2) div:nth-of-type(2){
+  background-color:red;
+}
 
 /* Sweden */
+
+#sweden{
+  font-size:0;
+}
 
 /* Switzerland */
 
